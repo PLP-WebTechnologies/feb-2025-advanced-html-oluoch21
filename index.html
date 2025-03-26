@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structured HTML Page</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Types of Dogs</h2>
+    <ol>
+        <li>German Shepherd</li>
+        <li>Labrador Retriever</li>
+        <li>Bulldog</li>
+        <li>Rotweiler</li>
+        <li>Poodle</li>
+    </ol>
+
+    <h2>Grand Vintage</h2>
+    <img src="https://images.pexels.com/photos/31259507/pexels-photo-31259507/free-photo-of-majestic-architectural-corridor-with-pillars.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Beautiful Scenery" width="600">
+
+    <!-- Contacts Table -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Malik Sadique</td>
+                <td>4th Avenue, Tom Mboya</td>
+                <td>+2543456789</td>
+                <td>malik23@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane Foster</td>
+                <td>21st street, Washington</td>
+                <td>+187654321</td>
+                <td>jane12@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mike Tyson</td>
+                <td>13th street, Malibu</td>
+                <td>+156789123</td>
+                <td>mikethegreat@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Ruth Kemunto</td>
+                <td>Aste Road, Bolivia</td>
+                <td>+564321987</td>
+                <td>kemunto@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Chris Kaiga</td>
+                <td>Mfangano Lane, WA</td>
+                <td>+451654987</td>
+                <td>zimenice@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required> Male
+        <input type="radio" id="female" name="gender" value="female" required> Female
+        <br><br>
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select Country</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="South Africa">South Africa</option>
+        </select>
+        <br><br>
+        
+        <label>Interests:</label>
+        <input type="checkbox" name="interests" value="coding"> Coding
+        <input type="checkbox" name="interests" value="music"> Music
+        <input type="checkbox" name="interests" value="sports"> Sports
+        <br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
